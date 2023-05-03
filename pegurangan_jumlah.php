@@ -11,13 +11,16 @@
 		$angka_pertama = 198;
 		$angka_kedua = 134;
 		$angka_ketiga = 76;
-		$jumlah = $angka_pertama + $angka_kedua + $angka_ketiga;
-		$teks = '<br>Ketiga variabel bila dijumlah menjadi: ';
+		$jumlah = $angka_pertama + $angka_kedua;
+        $hasil = $jumlah - $angka_ketiga;
+		$teks1 = '<br>Hasil dari ';
+        $teks2 = ' adalah: ';
 		
 		echo "Angka pertama adalah: " . $angka_pertama;
 		echo "<br> Angka kedua adalah: " . $angka_kedua;
 		echo "<br> Angka ketiga adalah: " . $angka_ketiga;
-		echo ($teks . $jumlah);
+		echo ($teks1 . $angka_pertama . " + " . $angka_kedua . $teks2 . $jumlah);
+        echo ($teks1 . $jumlah . " - " . $angka_ketiga . $teks2 . $hasil);
 	?>
 </body>
 </html>
