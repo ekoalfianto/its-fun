@@ -8,9 +8,9 @@
 </head>
 <body>
 	<?php
-		$angka_pertama = 198;
-		$angka_kedua = 134;
-		$angka_ketiga = 76;
+		$angka_pertama = 15;
+		$angka_kedua = 45;
+		$angka_ketiga = 100;
 		$jumlah = $angka_pertama + $angka_kedua;
         $hasil = $jumlah - $angka_ketiga;
 		$teks1 = '<br>Hasil dari ';
